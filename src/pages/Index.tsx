@@ -42,7 +42,7 @@ const Index = () => {
           <div className="px-6 md:px-16 lg:px-32">
             <div className="flex flex-col items-center mb-10 mt-4 gap-6">
               <div className="text-center">
-                <p className="text-foreground font-mono text-base md:text-lg font-semibold mb-1">Выбери звёзды</p>
+                <p className="text-white font-mono text-base md:text-lg font-semibold mb-1">Выбери звёзды</p>
                 <p className="text-muted-foreground font-mono text-sm">и спишись с администратором</p>
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">

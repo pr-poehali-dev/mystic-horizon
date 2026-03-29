@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full px-6 relative py-[0] mt-28 h-auto mb-0 bg-card">
+    <footer className="w-full px-6 relative py-[0] mt-28 h-auto mb-0" style={{ background: "linear-gradient(180deg, #0a1628 0%, #1a3a6e 50%, #3a8fd4 100%)" }}>
       <div className="absolute top-8 right-6 text-accent text-2xl">+</div>
       <div className="absolute top-1/2 right-12 text-accent text-lg transform -translate-y-1/2">*</div>
       <div className="absolute bottom-12 right-20 text-accent text-xl">+</div>
@@ -71,9 +71,9 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="w-full px-6 py-4 border-t border-border flex md:flex-row items-center justify-between gap-2 flex-row">
-          <p className="text-muted-foreground text-sm font-mono">2025 w1nMARKET</p>
-          <p className="text-muted-foreground text-sm font-mono">poehali.dev</p>
+        <div className="w-full px-6 py-4 border-t border-white/10 flex md:flex-row items-center justify-between gap-2 flex-row" style={{ background: "rgba(0,0,0,0.25)" }}>
+          <p className="text-white/40 text-sm font-mono">2025 w1nMARKET</p>
+          <p className="text-white/40 text-sm font-mono">poehali.dev</p>
         </div>
       </div>
     </footer>
