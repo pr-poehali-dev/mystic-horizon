@@ -34,8 +34,14 @@ export default function Footer() {
           </div>
 
           <div className="hidden md:flex flex-1 justify-end items-center relative">
-            <div className="relative flex items-center justify-center w-48 h-48">
-              <span className="text-[8rem] select-none">⭐</span>
+            <div className="relative flex items-center justify-center">
+              <img
+                src="https://cdn.poehali.dev/projects/913b0683-5d06-4a22-ba5c-f63b1e2e2185/files/81fb090e-9e06-4981-ae30-5bb565e741ee.jpg"
+                alt="NFT подарки"
+                width={320}
+                height={320}
+                className="object-contain drop-shadow-2xl"
+              />
             </div>
           </div>
         </div>
