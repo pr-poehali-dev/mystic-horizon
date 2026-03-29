@@ -20,11 +20,15 @@ export default function Footer() {
             <div className="space-y-4 text-foreground">
               <div className="flex items-start gap-3">
                 <span className="text-accent mt-1">*</span>
-                <p className="text-sm">Маркетплейс нового поколения — здесь выигрывают все.</p>
+                <p className="text-sm">w1nMARKET — популярный Telegram-маркет, где сотни людей закупаются ежедневно.</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-accent mt-1">*</span>
-                <p className="text-sm">Нажимай на звёзды, присоединяйся к сообществу в Telegram.</p>
+                <p className="text-sm">Проверенные товары, живое сообщество и быстрые сделки — всё в одном месте.</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-accent mt-1">*</span>
+                <p className="text-sm">Присоединяйся — нажми на звёзды и открой наш канал в Telegram.</p>
               </div>
             </div>
           </div>
