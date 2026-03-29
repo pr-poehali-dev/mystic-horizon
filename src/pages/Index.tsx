@@ -3,8 +3,7 @@ import Header from "@/components/Header"
 import RotatingTextAccent from "@/components/RotatingTextAccent"
 import Footer from "@/components/Footer"
 import HeroTextOverlay from "@/components/HeroTextOverlay"
-
-const CDN_BASE = "https://cdn.poehali.dev/templates/meet-jack"
+import StarCard from "@/components/StarCard"
 
 const Index = () => {
   return (
@@ -40,34 +39,33 @@ const Index = () => {
             +
           </div>
 
-          <div className="px-6 md:px-40">
-            <div className="flex items-center justify-center mb-3.5 md:gap-11">
-              <div className="flex flex-col items-center">
-                <img src={`${CDN_BASE}/jack-front.png`} alt="Макс спереди" className="w-48 h-48 md:w-56 md:h-56 object-contain" />
-              </div>
-
-              <div className="flex flex-col items-center">
-                <img src={`${CDN_BASE}/jack-side.png`} alt="Макс сбоку" className="w-48 h-48 md:w-56 md:h-56 object-contain" />
-              </div>
-
-              <div className="flex flex-col items-center">
-                <img src={`${CDN_BASE}/jack-back.png`} alt="Макс сзади" className="w-48 h-48 md:w-56 md:h-56 object-contain" />
-              </div>
+          <div className="px-6 md:px-16 lg:px-32">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mb-10 mt-4">
+              <StarCard count={100} />
+              <StarCard count={500} />
+              <StarCard count={1000} />
             </div>
 
             <div className="flex flex-col gap-2 max-w-5xl">
               <div className="flex items-center gap-4">
                 <span className="text-accent font-mono text-sm">Имя</span>
-                <span className="text-foreground font-mono text-sm">Макс</span>
+                <span className="text-foreground font-mono text-sm">w1nMARKET</span>
               </div>
               <div className="flex items-center gap-4">
-                <span className="text-accent font-mono text-sm">Вид</span>
-                <span className="text-foreground font-mono text-sm">Инопланетянин с планеты Флэпджек</span>
+                <span className="text-accent font-mono text-sm">Контакт</span>
+                <a
+                  href="https://t.me/W1nget"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent font-mono text-sm hover:opacity-70 transition-opacity"
+                >
+                  @W1nget
+                </a>
               </div>
               <div className="flex items-start gap-4">
-                <span className="text-accent font-mono text-sm">Характер</span>
+                <span className="text-accent font-mono text-sm">О нас</span>
                 <span className="text-foreground font-mono text-sm">
-                  Любопытный, гибкий, немного расслабленный - но острый, когда дело касается баз данных и организации информации.
+                  Маркетплейс нового поколения. Нажми на звёзды и открой наш Telegram.
                 </span>
               </div>
             </div>
