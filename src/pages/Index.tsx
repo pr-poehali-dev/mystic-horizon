@@ -40,10 +40,16 @@ const Index = () => {
           </div>
 
           <div className="px-6 md:px-16 lg:px-32">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mb-10 mt-4">
-              <StarCard count={100} />
-              <StarCard count={500} />
-              <StarCard count={1000} />
+            <div className="flex flex-col items-center mb-10 mt-4 gap-6">
+              <div className="text-center">
+                <p className="text-foreground font-mono text-base md:text-lg font-semibold mb-1">Выбери звёзды</p>
+                <p className="text-muted-foreground font-mono text-sm">и спишись с администратором</p>
+              </div>
+              <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+                <StarCard count={100} />
+                <StarCard count={500} />
+                <StarCard count={1000} />
+              </div>
             </div>
 
             <div className="flex flex-col gap-2 max-w-5xl">
